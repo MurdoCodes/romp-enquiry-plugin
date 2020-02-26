@@ -1,0 +1,220 @@
+fieldset,label,legend{text-align:left!important}
+.alert,legend{font-weight:900!important}
+fieldset{border:1px groove #ddd!important;margin:0 !important;-webkit-box-shadow:0 0 0 0 #000!important;box-shadow:0 0 0 0 #000!important}
+legend{border-bottom:0!important;}
+.alert{padding:0!important;width:15%!important;font-size:1em!important;line-height:1.7!important;letter-spacing:1px!important;text-align:center!important}
+.resultRequestFailed,.resultRequestSuccess{margin-top:2%;font-weight:700;font-size:larger}
+.resultRequestSuccess{color:green}
+.resultRequestFailed{color:red}
+#idpc_dropdown{width:100%;display:-webkit-box}
+#postcode{width:100%}
+#idpc_button{margin-top:.5em;margin-bottom:1em;text-transform: capitalize;}
+#street_address1,#street_address2,#street_address3{margin-bottom:.5em}
+.next,.prev{margin-bottom:2em}
+input[readonly]{background-color:#fff}
+.fieldset_1 fieldset,.fieldset_2 fieldset,.fieldset_3 fieldset{border:none!important}
+
+
+
+.next{background-color: #ef8a1e;color: #fff;border-radius: 5px;border: none;padding: 1% 5%;border:1px solid transparent;box-shadow: 0px 0px 10px transparent;}
+.prev, #next2{border-radius: 5px;padding: 1% 5%;border:1px solid transparent;box-shadow: 0px 0px 10px transparent;}
+
+.prev:hover{border:1px solid #848484;box-shadow: 0px 0px 10px grey;text-decoration: none;}
+.next:hover{color:#fff;background-color:#d66f00;border:1px solid #848484;box-shadow: 0px 0px 10px grey;text-decoration: none;}
+
+
+#m_submitButton{background-color: #ef8a1e;color: #fff;border-radius: 5px;padding: 1% 5%;border:1px solid transparent;box-shadow: 0px 0px 10px transparent;}
+#m_submitButton:hover{color:#fff;background-color:#d66f00;border:1px solid #848484;box-shadow: 0px 0px 10px grey;text-decoration: none;}
+.postcodeContainer #universalPostcode1{font-size: 1.5em;height: 50px;}
+.postcodeContainer #OptinSubmit1{cursor: pointer;background-image: url(../img/search_button.jpg);background-repeat: no-repeat;background-size: cover;background-position: center;border-top-right-radius: 5px;border-bottom-right-radius: 5px;height: 50px;width: 50px;border: 1px solid #c9c9c9;}
+/*SETTING PART*/
+#wpbody .wrap #romp_admin_options_form{width:40%;}
+#postcode_section{padding: .7em 2em 1em;min-width: 255px;max-width: 520px;border: 1px solid #e5e5e5;box-shadow: 0 1px 1px rgba(0,0,0,.04);background: #fff;}
+#personal_information legend, #postcode_section legend{font-size:1.3em;padding: 0px 10px}
+#romp_data_table thead tr th, tbody tr td, tfoot tr th{text-align:center;}
+#form-enquiry-modal #m_street_address1, #m_street_address2{margin-bottom: 1em;}
+.card{border:none !important;box-shadow:none;}
+/*Bootstrap override*/
+/*.modal-header .close {
+    padding: 5px 10px;
+}
+.modal-title{
+	float: left;
+	clear: none;
+}
+.modal-header{
+	display: block !important;
+}*/
+
+/* Absolute Center Spinner */
+.loading {
+  position: absolute;
+  z-index: 999;
+  height: 2em;
+  width: 2em;
+  overflow: visible;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+/* Transparent Overlay */
+.loading:before {
+  content: '';
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.3);
+}
+
+/* :not(:required) hides these rules from IE9 and below */
+.loading:not(:required) {
+  /* hide "loading..." text */
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+
+.loading:not(:required):after {
+  content: '';
+  display: block;
+  font-size: 10px;
+  width: 1em;
+  height: 1em;
+  margin-top: -0.5em;
+  -webkit-animation: spinner 1500ms infinite linear;
+  -moz-animation: spinner 1500ms infinite linear;
+  -ms-animation: spinner 1500ms infinite linear;
+  -o-animation: spinner 1500ms infinite linear;
+  animation: spinner 1500ms infinite linear;
+  border-radius: 0.5em;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.75) 1.5em 0 0 0, rgba(0, 0, 0, 0.75) 1.1em 1.1em 0 0, rgba(0, 0, 0, 0.75) 0 1.5em 0 0, rgba(0, 0, 0, 0.75) -1.1em 1.1em 0 0, rgba(0, 0, 0, 0.5) -1.5em 0 0 0, rgba(0, 0, 0, 0.5) -1.1em -1.1em 0 0, rgba(0, 0, 0, 0.75) 0 -1.5em 0 0, rgba(0, 0, 0, 0.75) 1.1em -1.1em 0 0;
+  box-shadow: rgba(0, 0, 0, 0.75) 1.5em 0 0 0, rgba(0, 0, 0, 0.75) 1.1em 1.1em 0 0, rgba(0, 0, 0, 0.75) 0 1.5em 0 0, rgba(0, 0, 0, 0.75) -1.1em 1.1em 0 0, rgba(0, 0, 0, 0.75) -1.5em 0 0 0, rgba(0, 0, 0, 0.75) -1.1em -1.1em 0 0, rgba(0, 0, 0, 0.75) 0 -1.5em 0 0, rgba(0, 0, 0, 0.75) 1.1em -1.1em 0 0;
+}
+
+/* Absolute Center Spinner */
+.spinner {
+  position: absolute;
+  z-index: 999;
+  height: 2em;
+  width: 2em;
+  overflow: visible;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+/* Transparent Overlay */
+.spinner:before {
+  content: '';
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.3);
+}
+
+/* :not(:required) hides these rules from IE9 and below */
+.spinner:not(:required) {
+  /* hide "loading..." text */
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+
+.spinner:not(:required):after {
+  content: '';
+  display: block;
+  font-size: 10px;
+  width: 1em;
+  height: 1em;
+  margin-top: -0.5em;
+  -webkit-animation: spinner 1500ms infinite linear;
+  -moz-animation: spinner 1500ms infinite linear;
+  -ms-animation: spinner 1500ms infinite linear;
+  -o-animation: spinner 1500ms infinite linear;
+  animation: spinner 1500ms infinite linear;
+  border-radius: 0.5em;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.75) 1.5em 0 0 0, rgba(0, 0, 0, 0.75) 1.1em 1.1em 0 0, rgba(0, 0, 0, 0.75) 0 1.5em 0 0, rgba(0, 0, 0, 0.75) -1.1em 1.1em 0 0, rgba(0, 0, 0, 0.5) -1.5em 0 0 0, rgba(0, 0, 0, 0.5) -1.1em -1.1em 0 0, rgba(0, 0, 0, 0.75) 0 -1.5em 0 0, rgba(0, 0, 0, 0.75) 1.1em -1.1em 0 0;
+  box-shadow: rgba(0, 0, 0, 0.75) 1.5em 0 0 0, rgba(0, 0, 0, 0.75) 1.1em 1.1em 0 0, rgba(0, 0, 0, 0.75) 0 1.5em 0 0, rgba(0, 0, 0, 0.75) -1.1em 1.1em 0 0, rgba(0, 0, 0, 0.75) -1.5em 0 0 0, rgba(0, 0, 0, 0.75) -1.1em -1.1em 0 0, rgba(0, 0, 0, 0.75) 0 -1.5em 0 0, rgba(0, 0, 0, 0.75) 1.1em -1.1em 0 0;
+}
+
+/* Animation */
+
+@-webkit-keyframes spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-moz-keyframes spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-o-keyframes spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
